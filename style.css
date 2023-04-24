@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Bitter&family=Dancing+Script&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Bitter", serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../src/bg.jpg);
+  background-repeat: no-repeat;
+  object-fit: cover;
+  opacity: 0.9;
+}
+
+h1 {
+  font-family: "Dancing Script", cursive;
+  font-size: 152px;
+  background-color: rgba(0, 0, 0, 0.509);
+  padding-left: 30px;
+  padding-right: 30px;
+  width: fit-content;
+  height: fit-content;
+  border-radius: 14px;
+  color: yellow;
+  user-select: none;
+}
+
+#content {
+  display: grid;
+  justify-items: center;
+  height: 100vh;
+}
+
+a {
+  text-decoration: none;
+  font-size: 28px;
+  color: yellow;
+}
+
+a:hover {
+  scale: 1.1;
+  color: red;
+}
+
+.nav-bar {
+  margin-top: 30px;
+  width: 100%;
+  height: 40px;
+  border-radius: 10px;
+  background-color: rgba(0, 69, 0, 0.695);
+  opacity: 0.95;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 60px;
+}
+
+p {
+  font-size: 32px;
+  color: black;
+  background-color: yellow;
+  width: fit-content;
+  height: fit-content;
+  padding: 0 20px 0 20px;
+  opacity: 0.9;
+  user-select: none;
+}
