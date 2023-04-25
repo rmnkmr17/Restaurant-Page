@@ -1,5 +1,5 @@
+import loadPage from "./loadPage";
 const createNavBar = () => {
-  const content = document.querySelector("#content");
   const navBar = document.createElement("div");
   navBar.classList.add("nav-bar");
   const home = document.createElement("a");
@@ -10,9 +10,9 @@ const createNavBar = () => {
   menu.textContent = "Menu";
   about.textContent = "About";
 
-  home.href = "../src/home.js";
-  menu.href = "./menu.js";
-  about.href = "./about.js";
+  //   home.href = "../src/home.js";
+  //   menu.href = "./menu.js";
+  //   about.href = "./about.js";
 
   navBar.append(home);
   navBar.append(menu);
