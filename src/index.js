@@ -2,6 +2,7 @@ import createNavBar from "./navBar";
 import loadPage from "./loadPage";
 import renderFooter from "./footer";
 import renderMenu from "./menu";
+import renderContactPage from "./contact";
 
 createNavBar();
 loadPage();
@@ -23,6 +24,13 @@ const selectTab = () => {
         content.innerHTML = "";
         createNavBar();
         renderMenu();
+        renderFooter();
+        selectTab();
+      }
+      if (e.target.textContent === "About") {
+        content.innerHTML = "";
+        createNavBar();
+        renderContactPage();
         renderFooter();
         selectTab();
       }
