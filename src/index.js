@@ -3,6 +3,7 @@ import loadPage from "./loadPage";
 import renderFooter from "./footer";
 import renderMenu from "./menu";
 import renderContactPage from "./contact";
+import style from "./style.css";
 
 createNavBar();
 loadPage();
